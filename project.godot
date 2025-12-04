@@ -11,5 +11,13 @@ config_version=5
 [application]
 
 config/name="Pirate Puzzle"
+run/main_scene="uid://dtigh0510s5e8"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=576
+window/size/viewport_height=324
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
